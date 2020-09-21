@@ -1,0 +1,38 @@
+body {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Courier New";
+}
+
+body::after {
+    content: "";
+    background-image: url("tenor.gif");
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+span {
+    color: white;
+}
+::-webkit-input-placeholder {
+    color: #711
+}
+#main {
+    position: fixed;
+    left: 40%;
+    border: 0px solid #421;
+    padding: 40px;
+}
+#main div {
+    margin: 10px;
+}
+#input {
+    border: 0;
+    padding: 5px;
+    border: 1px solid #421;
+}
